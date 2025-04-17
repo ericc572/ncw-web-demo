@@ -43,6 +43,7 @@ export const NewTxDialog: React.FC<IProps> = ({ isOpen, onClose, assetsToSelectF
         amount: amount,
         destAddress: destinationAddress,
         feeLevel: txFee,
+        useGasless: true,
         estimateFee: false,
       };
     }
